@@ -6,7 +6,7 @@ AdVenture Capitalist is an idle game about buying businesses, hiring managers, p
 
 ## Download and install
 
-[Download AdCapAccessPatcher.exe](https://github.com/ShotgunSpoon/adCapAccess/releases/download/v1.1/AdCapAccessPatcher.exe).
+[Download AdCapAccessPatcher.exe](https://github.com/ShotgunSpoon/adCapAccess/releases/download/v1.2/AdCapAccessPatcher.exe).
 
 1. Close AdVenture Capitalist.
 2. Start the patcher.
@@ -20,6 +20,8 @@ The patcher executable is currently unsigned, so Windows may show a warning the 
 
 Patcher 1.1 fixes custom game folders. Selecting or typing a different installation path now checks that folder before installation, and an older check cannot replace the result for the newly selected folder.
 
+Version 1.2 adds an accessible interface for temporary events. It reads the current event directly, so its details, goals, milestone rewards, leaderboard tiers, and live leaderboard are not tied to one named event. Event dialogs with countdowns are announced once instead of repeating every second.
+
 ## Keys
 
 These keys work while the game window has focus.
@@ -29,7 +31,8 @@ These keys work while the game window has focus.
 | Left and Right Arrow | Move between businesses on the planet screen, or between items inside a menu. |
 | Up and Down Arrow | Move between the fields or actions for the selected business or menu item. |
 | Enter or Space | Activate the selected control. |
-| Left Bracket and Right Bracket | Move backward or forward through the main tabs. |
+| E | Open or close the accessible event interface while an active event planet is loaded. |
+| Left Bracket and Right Bracket | Move backward or forward through the main tabs. While the event interface is open, move through Details, Goals, Rewards, and Leaderboard. |
 | F6 | Repeat the current business or menu item. |
 | F7 | Read the current status while a menu or dialog is open. |
 | F8 | Enter screen-text mode. Use Up and Down Arrow to read the text, then press Enter, Space, Escape, or F8 to return to controls. |
@@ -45,15 +48,21 @@ Press G on Earth, Moon, or Mars. The mod reads your ticket count and lists the o
 
 Temporary event planets use a separate Gold-based gilding system, so the G menu is not used there.
 
+### Using the event interface
+
+Enter an active temporary event, then press E. Use Left Bracket and Right Bracket to move through Details, Goals, Rewards, and Leaderboard. Use Left and Right Arrow to move between items, and Up and Down Arrow to move between an item's name, description, progress, and available action. Enter or Space activates only an explicitly selected action such as claiming a completed goal or milestone reward. Press E again to return to normal business navigation.
+
+Completed goals and milestone rewards are rechecked immediately before a claim. If the event ends, changes, or begins loading another planet, the event interface closes without performing the old action. Hidden active rewards are announced only as mystery rewards.
+
 ## What the mod reads
 
-Current coverage includes businesses, buy quantities and costs, production income and timers, Managers, Upgrades, Unlocks, Investors, Career and inventory items, the Shop, Gallery, AdVentures, Statistics, Exchange, Tickets, News, social links and rewards, Welcome Back information, reward celebrations, confirmation dialogs, and locked-planet information.
+Current coverage includes businesses, buy quantities and costs, production income and timers, Managers, Upgrades, Unlocks, Investors, Career and inventory items, the Shop, Gallery, AdVentures, temporary event details and goals, milestone and leaderboard rewards, live event leaderboards, Statistics, Exchange, Tickets, News, social links and rewards, Welcome Back information, reward celebrations, confirmation dialogs, and locked-planet information.
 
 PlayFab account IDs are deliberately left out of focus announcements.
 
 ## Areas that need more testing
 
-This is the first public release, and some late-game features were not unlocked in the saves used during development. Reports from players who can reach these areas are useful:
+Some late-game features were not unlocked in the saves used during development. Reports from players who can reach these areas are useful:
 
 - Switching between Earth, Moon, Mars, and temporary event planets.
 - The full Mega Ticket gilding flow, including the confirmation and success celebration.
@@ -61,7 +70,7 @@ This is the first public release, and some late-game features were not unlocked 
 - Buying, inspecting, equipping, replacing, and unequipping cosmetics of different types and rarities.
 - Store purchases using Gold, Mega Bucks, Mega Tickets, and real-money listings. Do not make a real-money purchase only for testing.
 - Every Gallery category, including earned, claimed, and not-yet-earned unlocks.
-- Event goals, leaderboard rewards, event result dialogs, and event-only gilding.
+- Events that use Angel progression, post-event result dialogs, and event-only gilding.
 - Planet completion, hard-reset rewards, and the first visit to a newly unlocked planet.
 - Reward dialogs containing several items or currencies at once.
 
