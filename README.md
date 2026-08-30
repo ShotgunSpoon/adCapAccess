@@ -6,7 +6,7 @@ AdVenture Capitalist is an idle game about buying businesses, hiring managers, p
 
 ## Download and install
 
-[Download AdCapAccessPatcher.exe](https://github.com/ShotgunSpoon/adCapAccess/releases/download/v1.0/AdCapAccessPatcher.exe).
+[Download AdCapAccessPatcher.exe](https://github.com/ShotgunSpoon/adCapAccess/releases/download/v1.1/AdCapAccessPatcher.exe).
 
 1. Close AdVenture Capitalist.
 2. Start the patcher.
@@ -17,6 +17,8 @@ AdVenture Capitalist is an idle game about buying businesses, hiring managers, p
 The patcher backs up the original game assembly before changing it. **Repair** downloads and installs the current mod files again. **Restore Original Game** removes the mod and restores the patcher-created backup.
 
 The patcher executable is currently unsigned, so Windows may show a warning the first time it runs.
+
+Patcher 1.1 fixes custom game folders. Selecting or typing a different installation path now checks that folder before installation, and an older check cannot replace the result for the newly selected folder.
 
 ## Keys
 
