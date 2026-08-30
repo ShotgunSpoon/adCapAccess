@@ -6,7 +6,7 @@ AdVenture Capitalist is an idle game about buying businesses, hiring managers, p
 
 ## Download and install
 
-[Download AdCapAccessPatcher.exe](https://github.com/ShotgunSpoon/adCapAccess/releases/download/v1.2/AdCapAccessPatcher.exe).
+[Download AdCapAccessPatcher.exe](https://github.com/ShotgunSpoon/adCapAccess/releases/download/v1.2.1/AdCapAccessPatcher.exe).
 
 1. Close AdVenture Capitalist.
 2. Start the patcher.
@@ -18,9 +18,9 @@ The patcher backs up the original game assembly before changing it. **Repair** d
 
 The patcher executable is currently unsigned, so Windows may show a warning the first time it runs.
 
-Patcher 1.1 fixes custom game folders. Selecting or typing a different installation path now checks that folder before installation, and an older check cannot replace the result for the newly selected folder.
+Patcher 1.2.1 fixes the Version 1.2 self-update loop that could repeatedly replace and restart the patcher, then fail while loading its temporary Python runtime. It also retains the Version 1.1 custom game folder fix.
 
-Version 1.2 adds an accessible interface for temporary events. It reads the current event directly, so its details, goals, milestone rewards, leaderboard tiers, and live leaderboard are not tied to one named event. Event dialogs with countdowns are announced once instead of repeating every second.
+Version 1.2.1 lets keyboard users press E on Earth, Moon, or Mars to enter the current active event through the game's own Go to Event action. Once the event planet has loaded, E opens or closes the accessible event interface introduced in Version 1.2. The interface reads the current event directly, so its details, goals, milestone rewards, leaderboard tiers, and live leaderboard are not tied to one named event. Event dialogs with countdowns are announced once instead of repeating every second.
 
 ## Keys
 
@@ -31,7 +31,7 @@ These keys work while the game window has focus.
 | Left and Right Arrow | Move between businesses on the planet screen, or between items inside a menu. |
 | Up and Down Arrow | Move between the fields or actions for the selected business or menu item. |
 | Enter or Space | Activate the selected control. |
-| E | Open or close the accessible event interface while an active event planet is loaded. |
+| E | On Earth, Moon, or Mars, enter the current active event. On an event planet, open or close the accessible event interface. |
 | Left Bracket and Right Bracket | Move backward or forward through the main tabs. While the event interface is open, move through Details, Goals, Rewards, and Leaderboard. |
 | F6 | Repeat the current business or menu item. |
 | F7 | Read the current status while a menu or dialog is open. |
@@ -50,7 +50,7 @@ Temporary event planets use a separate Gold-based gilding system, so the G menu 
 
 ### Using the event interface
 
-Enter an active temporary event, then press E. Use Left Bracket and Right Bracket to move through Details, Goals, Rewards, and Leaderboard. Use Left and Right Arrow to move between items, and Up and Down Arrow to move between an item's name, description, progress, and available action. Enter or Space activates only an explicitly selected action such as claiming a completed goal or milestone reward. Press E again to return to normal business navigation.
+From Earth, Moon, or Mars, press E to enter the current active temporary event through the game's own Go to Event action. If the event introduction appears, the mod announces it. Once the event planet has loaded, press E again to open the accessible event interface. Use Left Bracket and Right Bracket to move through Details, Goals, Rewards, and Leaderboard. Use Left and Right Arrow to move between items, and Up and Down Arrow to move between an item's name, description, progress, and available action. Enter or Space activates only an explicitly selected action such as continuing the introduction or claiming a completed goal or milestone reward. Press E again to return to normal business navigation.
 
 Completed goals and milestone rewards are rechecked immediately before a claim. If the event ends, changes, or begins loading another planet, the event interface closes without performing the old action. Hidden active rewards are announced only as mystery rewards.
 
