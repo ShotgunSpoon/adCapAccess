@@ -6,7 +6,7 @@ AdVenture Capitalist is an idle game about buying businesses, hiring managers, p
 
 ## Download and install
 
-[Download AdCapAccessPatcher.exe](https://github.com/ShotgunSpoon/adCapAccess/releases/download/v1.2.1/AdCapAccessPatcher.exe).
+[Download AdCapAccessPatcher.exe](https://github.com/ShotgunSpoon/adCapAccess/releases/download/v1.2.2/AdCapAccessPatcher.exe).
 
 1. Close AdVenture Capitalist.
 2. Start the patcher.
@@ -18,9 +18,9 @@ The patcher backs up the original game assembly before changing it. **Repair** d
 
 The patcher executable is currently unsigned, so Windows may show a warning the first time it runs.
 
-Patcher 1.2.1 fixes the Version 1.2 self-update loop that could repeatedly replace and restart the patcher, then fail while loading its temporary Python runtime. It also retains the Version 1.1 custom game folder fix.
+Patcher 1.2.2 retains the Version 1.2.1 self-update-loop fix and the Version 1.1 custom game folder fix.
 
-Version 1.2.1 lets keyboard users press E on Earth, Moon, or Mars to enter the current active event through the game's own Go to Event action. Once the event planet has loaded, E opens or closes the accessible event interface introduced in Version 1.2. The interface reads the current event directly, so its details, goals, milestone rewards, leaderboard tiers, and live leaderboard are not tied to one named event. Event dialogs with countdowns are announced once instead of repeating every second.
+Version 1.2.2 fixes event business navigation. Event ventures now use their real names, ownership, next-purchase costs, and native purchase buttons, and an event's booster slot is no longer misidentified as Lemonade Stand. It retains the Version 1.2.1 keyboard route into active events and the accessible Details, Goals, Rewards, and Leaderboard interface.
 
 ## Keys
 
