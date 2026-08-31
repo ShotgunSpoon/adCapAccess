@@ -6,7 +6,7 @@ AdVenture Capitalist is an idle game about buying businesses, hiring managers, p
 
 ## Download and install
 
-[Download AdCapAccessPatcher.exe](https://github.com/ShotgunSpoon/adCapAccess/releases/download/v1.2.4/AdCapAccessPatcher.exe).
+[Download AdCapAccessPatcher.exe](https://github.com/ShotgunSpoon/adCapAccess/releases/download/v1.2.4.1/AdCapAccessPatcher.exe).
 
 1. Close AdVenture Capitalist.
 2. Start the patcher.
@@ -18,9 +18,9 @@ The patcher backs up the original game assembly before changing it. **Repair** d
 
 The patcher executable is currently unsigned, so Windows may show a warning the first time it runs.
 
-Patcher 1.2.4 retains the Version 1.2.1 self-update-loop fix and the Version 1.1 custom game folder fix.
+Patcher 1.2.4.1 retains the Version 1.2.1 self-update-loop fix and the Version 1.1 custom game folder fix.
 
-Version 1.2.4 adds the next-event countdown. When no event is active, pressing E announces how many weeks, days, hours, and minutes remain until the next event in the schedule currently available inside the game. It retains the Version 1.2.3 Managers navigation fixes and the accessible event interface.
+Version 1.2.4.1 adds a shortcut for leaving temporary event planets. Press Shift+E on an event planet to save and return to the normal planet you were last playing: Earth, Moon, or Mars. It retains the Version 1.2.4 next-event countdown, Managers navigation fixes, and the accessible event interface.
 
 ## Keys
 
@@ -32,6 +32,7 @@ These keys work while the game window has focus.
 | Up and Down Arrow | Move between the fields or actions for the selected business or menu item. |
 | Enter or Space | Activate the selected control. |
 | E | On Earth, Moon, or Mars, enter the current active event. If no event is active, read the time until the next scheduled event. On an event planet, open or close the accessible event interface. |
+| Shift+E | While an event planet is open, save and return to the last normal planet: Earth, Moon, or Mars. |
 | Left Bracket and Right Bracket | Move backward or forward through the main tabs. While the event interface is open, move through Details, Goals, Rewards, and Leaderboard. |
 | F6 | Repeat the current business or menu item. |
 | F7 | Read the current status while a menu or dialog is open. |
