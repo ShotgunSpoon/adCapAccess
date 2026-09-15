@@ -6,7 +6,9 @@ AdVenture Capitalist is an idle game about buying businesses, hiring managers, p
 
 ## Download and install
 
-[Download AdCapAccessPatcher.exe](https://github.com/ShotgunSpoon/adCapAccess/releases/download/v1.2.4.6/AdCapAccessPatcher.exe).
+[Download AdCapAccessPatcher.exe](https://github.com/ShotgunSpoon/adCapAccess/releases/download/v1.2.4.7/AdCapAccessPatcher.exe).
+
+[Download the gameplay guide as readme.txt](https://blindmg.org/adcap-access/readme.txt), or [read it in this repository](readme.txt). It covers the gameplay loop, keyboard commands, screens, events, Mega Tickets, and Time Warp Express.
 
 1. Close AdVenture Capitalist.
 2. Start the patcher.
@@ -18,7 +20,9 @@ The patcher backs up the original game assembly before changing it. **Repair** d
 
 The patcher executable is currently unsigned, so Windows may show a warning the first time it runs.
 
-Patcher 1.2.4.6 retains the Version 1.2.1 self-update-loop fix and the Version 1.1 custom game folder fix.
+Patcher 1.2.4.7 offers to save the gameplay guide after installation or repair. **Download README...** lets you choose a filename and folder at any time, including when the mod is already up to date. If the download fails, you can save the copy included with the patcher. Patcher self-updates are optional, so downloading the guide does not require an executable update.
+
+This is a patcher and documentation release. The gameplay mod remains at version 1.2.4.6.
 
 Version 1.2.4.6 fixes looping while changing direction in long Managers lists. The mod retains the logical manager position while the game recycles visible rows, reaches the true first and last managers, and enters or leaves the list only at those endpoints. The Cash and Angels selectors remain reachable from the first manager. It retains held Enter/Space business purchasing, Angel-dialog speech fixes, event timing and return shortcuts, and the accessible event interface.
 
