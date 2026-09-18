@@ -22,7 +22,9 @@ The patcher executable is currently unsigned, so Windows may show a warning the 
 
 Patcher 1.2.4.7 offers to save the gameplay guide after installation or repair. **Download README...** lets you choose a filename and folder at any time, including when the mod is already up to date. If the download fails, you can save the copy included with the patcher. Patcher self-updates are optional, so downloading the guide does not require an executable update.
 
-This is a patcher and documentation release. The gameplay mod remains at version 1.2.4.6.
+The current gameplay mod is **1.2.4.8**. Close the game and choose **Install or Update** in the existing patcher to download it. Patcher 1.2.4.7 remains compatible; no patcher update is required.
+
+Version 1.2.4.8 fixes "No businesses found" in portrait layouts. Business discovery, order, labels, production controls, and purchase controls now follow the game's business models and views instead of landscape-only containers. Navigation continues to work when the window is resized or changes between portrait, landscape, and square layouts, without requiring a particular resolution.
 
 Version 1.2.4.6 fixes looping while changing direction in long Managers lists. The mod retains the logical manager position while the game recycles visible rows, reaches the true first and last managers, and enters or leaves the list only at those endpoints. The Cash and Angels selectors remain reachable from the first manager. It retains held Enter/Space business purchasing, Angel-dialog speech fixes, event timing and return shortcuts, and the accessible event interface.
 
