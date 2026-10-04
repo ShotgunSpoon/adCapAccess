@@ -6,9 +6,9 @@ AdVenture Capitalist is an idle game about buying businesses, hiring managers, p
 
 ## Download and install
 
-[Download AdCapAccessPatcher.exe](https://github.com/ShotgunSpoon/adCapAccess/releases/download/v1.2.4.7/AdCapAccessPatcher.exe).
+[Download AdCapAccessPatcher.exe](https://github.com/ShotgunSpoon/adCapAccess/releases/download/v1.2.4.9/AdCapAccessPatcher.exe).
 
-[Download the gameplay guide as readme.txt](https://blindmg.org/adcap-access/readme.txt), or [read it in this repository](readme.txt). It covers the gameplay loop, keyboard commands, screens, events, Mega Tickets, and Time Warp Express.
+[Download the gameplay guide as readme.txt](https://raw.githubusercontent.com/ShotgunSpoon/adCapAccess/main/readme.txt), or [read it in this repository](readme.txt). It covers the gameplay loop, keyboard commands, screens, events, Mega Tickets, and Time Warp Express.
 
 1. Close AdVenture Capitalist.
 2. Start the patcher.
@@ -22,7 +22,9 @@ The patcher executable is currently unsigned, so Windows may show a warning the 
 
 Patcher 1.2.4.7 offers to save the gameplay guide after installation or repair. **Download README...** lets you choose a filename and folder at any time, including when the mod is already up to date. If the download fails, you can save the copy included with the patcher. Patcher self-updates are optional, so downloading the guide does not require an executable update.
 
-The current gameplay mod is **1.2.4.8**. Close the game and choose **Install or Update** in the existing patcher to download it. Patcher 1.2.4.7 remains compatible; no patcher update is required.
+The current patcher and gameplay mod are **1.2.4.9**. Download the updated patcher, close the game, and choose **Install or Update**. Older patchers can offer this patcher update through their GitHub self-update check.
+
+Version 1.2.4.9 moves the mod manifest and all mod downloads to [ShotgunSpoon/adcap_patch](https://github.com/ShotgunSpoon/adcap_patch). The previous web server has been retired. Unlock announcements now identify the business required for the milestone, read that business's owned quantity, and announce the reward separately. Requirements involving every business report how many meet the target and the lowest owned quantity. Screen-text mode uses the same corrected requirements.
 
 Version 1.2.4.8 fixes "No businesses found" in portrait layouts. Business discovery, order, labels, production controls, and purchase controls now follow the game's business models and views instead of landscape-only containers. Navigation continues to work when the window is resized or changes between portrait, landscape, and square layouts, without requiring a particular resolution.
 

@@ -1,0 +1,3 @@
+accessible-output2==0.17
+wxPython==4.2.4
+PyInstaller==6.8.0
