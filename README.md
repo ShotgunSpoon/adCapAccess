@@ -22,7 +22,9 @@ The patcher executable is currently unsigned, so Windows may show a warning the 
 
 Patcher 1.2.4.7 offers to save the gameplay guide after installation or repair. **Download README...** lets you choose a filename and folder at any time, including when the mod is already up to date. If the download fails, you can save the copy included with the patcher. Patcher self-updates are optional, so downloading the guide does not require an executable update.
 
-The current patcher and gameplay mod are **1.2.4.9**. Download the updated patcher, close the game, and choose **Install or Update**. Older patchers can offer this patcher update through their GitHub self-update check.
+The current patcher is **1.2.4.9** and the gameplay mod is **1.2.4.10**. Download the updated patcher, close the game, and choose **Install or Update**. Older patchers can offer this patcher update through their GitHub self-update check.
+
+Mod 1.2.4.10 fixes an internal row-ID formatting error that caused 1.2.4.9 to announce "Requirement information unavailable."
 
 Version 1.2.4.9 moves the mod manifest and all mod downloads to [ShotgunSpoon/adcap_patch](https://github.com/ShotgunSpoon/adcap_patch). The previous web server has been retired. Unlock announcements now identify the business required for the milestone, read that business's owned quantity, and announce the reward separately. Requirements involving every business report how many meet the target and the lowest owned quantity. Screen-text mode uses the same corrected requirements.
 
